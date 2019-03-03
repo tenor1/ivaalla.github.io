@@ -1,0 +1,50 @@
+header {
+	display: flex; /* показати як флекс */
+	justify-content: center; /* вирівнювати вміст */
+}
+img {
+	width: 250px;
+}
+.polyca{
+	width: 100%;
+    height: 350px;
+	padding: 5px;
+}
+.mini {
+	width: 80px;
+}
+.foto {
+	float: left;
+	margin-right: 5px;
+}
+.shuflada {
+	width: 450px;
+    height: 320px;
+	border: 1px solid black;
+	padding: 5px;
+	float: left;
+	margin:10px;
+	background-color: white;
+}
+.shuflada2 {
+	width: 450px;
+    height: 320px;
+	border: 1px solid black;
+	padding: 5px;
+	float: right;
+	margin:10px;
+	background-color: white;
+}
+h2 {
+	text-align: center;
+}
+p{
+	text-indent: 3em;
+}
+h1 {
+	margin-left: 25px;
+	color: white;
+}
+.shafa {
+	background-color: gray;
+}
