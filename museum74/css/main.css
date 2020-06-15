@@ -69,10 +69,6 @@ h1 span {
   margin-top: 86px;
 }
 
-.activity_section {
-
-}
-
 .about_work_section {
   margin-top: 10px;
 }
@@ -86,7 +82,7 @@ section {
 }
 
 .heading {
-  padding-top: 36px;
+  padding-top: 32px;
   position: fixed;
 }
 header {
@@ -151,6 +147,30 @@ header {
   left: 0;
 }
 
+.scale3 img:hover {
+  transform: scale(3);
+  -webkit-transform:scale(3);
+  -moz-transform:scale(3);
+  -o-transform:scale(3);
+}
+
+.documents_container img, .scale3 img, #galery img {
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+}
+
+.documents_container img:hover {
+  transform:scale(2.5);
+  -webkit-transform:scale(2.5);
+  -moz-transform:scale(2.5);
+  -o-transform:scale(2.5);
+  position: relative;
+  top: 132px;
+}
+
 footer {
   height: 60px;
   border-top: 2px solid light-gray;
@@ -173,12 +193,18 @@ footer {
   cursor: pointer;
 }
 
+#kucherenko i:hover {
+  color: #4D7556;
+}
+
 #kucherenko:hover .floating {
   display: block;
+  top: -300px;
+  z-index: 10;
 }
 
 .floating {
   position: absolute;
   display: none;
-  right: -100px;
+  /* right: -100px; */
 }
